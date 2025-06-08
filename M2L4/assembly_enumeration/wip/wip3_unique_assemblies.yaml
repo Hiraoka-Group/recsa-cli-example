@@ -1,0 +1,192 @@
+0: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  comp_id_to_kind: {L1: L, M1: M}
+1: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L2.a, M1.b]
+  comp_id_to_kind: {L1: L, L2: L, M1: M}
+2: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L3: L, M1: M}
+3: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  comp_id_to_kind: {L1: L, M1: M, M2: M}
+4: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M}
+5: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  comp_id_to_kind: {L1: L, L2: L, M1: M, M2: M}
+6: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L3: L, M1: M, M2: M}
+7: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L4.a, M1.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M}
+8: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+9: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+10: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  comp_id_to_kind: {L1: L, L2: L, M1: M, M2: M}
+11: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.b, M2.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+12: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L4: L, M1: M, M2: M}
+13: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  comp_id_to_kind: {L1: L, L3: L, M1: M, M2: M}
+14: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L4.a, M1.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+15: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+16: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+17: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+18: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+19: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L4.a, M1.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+20: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  - [L4.a, M1.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+21: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, M1: M, M2: M}
+22: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+23: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+24: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  - [L4.a, M1.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}
+25: !Assembly
+  bonds:
+  - [L1.a, M1.a]
+  - [L1.b, M2.a]
+  - [L2.a, M1.b]
+  - [L2.b, M2.b]
+  - [L3.a, M1.c]
+  - [L3.b, M2.c]
+  - [L4.a, M1.d]
+  - [L4.b, M2.d]
+  comp_id_to_kind: {L1: L, L2: L, L3: L, L4: L, M1: M, M2: M}

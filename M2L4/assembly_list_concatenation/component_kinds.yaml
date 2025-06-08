@@ -1,0 +1,12 @@
+component_kinds:
+  M: !Component
+    binding_sites: [a, b, c, d]
+    aux_edges:
+      - [a, b, cis]
+      - [b, c, cis]
+      - [c, d, cis]
+      - [d, a, cis]
+  L: !Component
+    binding_sites: [a, b]
+  X: !Component
+    binding_sites: [a]

@@ -1,0 +1,11 @@
+0: !Assembly  # MX4
+  bonds:
+  - [M1.a, X1.a]
+  - [M1.b, X2.a]
+  - [M1.c, X3.a]
+  - [M1.d, X4.a]
+  comp_id_to_kind: {M1: M, X1: X, X2: X, X3: X, X4: X}
+1: !Assembly  # L
+  comp_id_to_kind: {L1: L}
+2: !Assembly  # X
+  comp_id_to_kind: {X1: X}
