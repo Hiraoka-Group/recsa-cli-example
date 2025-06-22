@@ -1,0 +1,48 @@
+- - IF
+  - condition:
+      - AND
+      - - [NAME, {of: init, is: (2,4,1)}]
+        - [NAME, {of: product, is: (2,4,0)}]
+    then: [RETURN, 6]
+
+- - IF
+  - condition:
+      - AND
+      - - [NAME, {of: init, is: (2,4,0)}]
+        - [NAME, {of: product, is: (2,4,1)}]
+    then: [RETURN, 7]
+
+- - IF
+  - condition:
+      - [REACTION_TYPE, {is: intra}]
+    then: [RETURN, 4]
+
+- - IF
+  - condition:
+      - REV
+      - [REACTION_TYPE, {is: intra}]
+    then: [RETURN, 5]
+
+- - IF
+  - condition:
+      [AND, [LEAVING_KIND, X], [ENTERING_KIND, L]]
+    then:
+      - IF
+      - condition:
+          - AND
+          - - [COUNT, {of: M, in: init, is: 1}]
+            - [COUNT, {of: M, in: product, is: 2}]
+        then: [RETURN, 2]
+        else: [RETURN, 0]
+
+- - IF
+  - condition:
+      [AND, [LEAVING_KIND, L], [ENTERING_KIND, X]]
+    then:
+      - IF
+      - condition:
+          - AND
+          - - [COUNT, {of: M, in: init, is: 2}]
+            - [COUNT, {of: M, in: product, is: 1}]
+        then: [RETURN, 3]
+        else: [RETURN, 1]

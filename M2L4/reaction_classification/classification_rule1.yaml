@@ -1,0 +1,42 @@
+- IF:
+  - AND:
+    - NAME: {of: init, is: (2,4,0)}
+    - NAME: {of: product, is: (2,4,1)}
+  - 6
+
+- IF:
+  - AND:
+    - NAME: {of: init, is: (2,4,0)}
+    - NAME: {of: product, is: (2,4,1)}
+  - 7
+
+- IF:
+  - REACTION_TYPE: {is: intra}
+  - 4
+
+- IF:
+  - REV:
+      REACTION_TYPE: {is: intra}
+  - 5
+
+- IF:
+  - AND:
+    - LEAVING_KIND: X
+    - ENTERING_KIND: L
+  - IF:
+    - AND:
+      - COUNT: {of: M, in: init, is: 1}
+      - COUNT: {of: M, in: product, is: 2}
+    - 2  # true
+    - 0  # false
+
+- IF:
+  - AND:
+    - LEAVING_KIND: L
+    - ENTERING_KIND: X
+  - IF:
+    - AND:
+      - COUNT: {of: M, in: init, is: 2}
+      - COUNT: {of: M, in: product, is: 1}
+    - 3  # true
+    - 1  # false
